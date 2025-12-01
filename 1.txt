@@ -1,2 +1,4 @@
-A=[int(input()) for i in range(10)]
+print("Введите длину массива: ")
+n=int(input())
+A=[int(input()) for i in range(n)]
 print(max(A))
